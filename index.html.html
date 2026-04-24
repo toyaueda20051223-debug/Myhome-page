@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauté Noir — 東京のプレミアムネイル＆エステサロン</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Beauté<span> Noir</span></a>
+      <nav class="nav">
+        <a href="#services">サービス</a>
+        <a href="#gallery">ギャラリー</a>
+        <a href="#menu">メニュー</a>
+        <a href="#about">サロンについて</a>
+        <a href="#contact">お問合せ</a>
+        <a href="#reservation" class="nav-cta">ご予約</a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu">
+    <a href="#services">サービス</a>
+    <a href="#gallery">ギャラリー</a>
+    <a href="#menu">メニュー</a>
+    <a href="#about">サロンについて</a>
+    <a href="#contact">お問合せ</a>
+    <a href="#reservation">ご予約</a>
+  </div>
+
+  <!-- ===== ヒーロー ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge fade-in">Tokyo Premium Salon</div>
+        <h1 class="hero-title fade-in">
+          美しさを、<br>
+          <span class="gold">あなたの日常</span>へ。
+        </h1>
+        <p class="hero-desc fade-in">
+          上質な空間と確かな技術で、あなただけの美を引き出します。<br>
+          ネイル・エステの専門家があなたの理想に寄り添います。
+        </p>
+        <div class="hero-btns fade-in">
+          <a href="#reservation" class="btn-primary">今すぐ予約する →</a>
+          <a href="#services" class="btn-secondary">サービスを見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 実績・数字 ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="98.5" data-suffix="%">0%</span>
+          <p class="stat-label">顧客満足度</p>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="3200" data-suffix="名">0名</span>
+          <p class="stat-label">累計来店数</p>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="8" data-suffix="年">0年</span>
+          <p class="stat-label">営業実績</p>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="4" data-suffix="冠">0冠</span>
+          <p class="stat-label">受賞歴</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== サービス ===== -->
+  <section id="services" class="section">
+    <div class="container">
+      <span class="section-label fade-in">Our Services</span>
+      <h2 class="section-title fade-in">こだわりの<br>サービスラインナップ</h2>
+      <p class="section-sub fade-in">最高品質の素材と熟練した技術で、あなたの美をトータルサポートします。</p>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">💅</div>
+          <h3>ネイルアート</h3>
+          <p>トレンドを取り入れたデザインから、シンプルな上品ケアまで。爪の健康を守りながら美しく仕上げます。</p>
+          <span class="service-tag">Nail Art →</span>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">✨</div>
+          <h3>フェイシャルエステ</h3>
+          <p>肌の状態に合わせたオーダーメイドのケア。高品質なスキンケアで、内側から輝く素肌を実現します。</p>
+          <span class="service-tag">Facial →</span>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">🌿</div>
+          <h3>ボディケア</h3>
+          <p>全身のバランスを整えるリラクゼーションコース。心も体もほぐれる至福のひとときをご提供します。</p>
+          <span class="service-tag">Body Care →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ギャラリー ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <span class="section-label fade-in">Gallery</span>
+      <h2 class="section-title fade-in">施術ギャラリー</h2>
+      <p class="section-sub fade-in">実際の施術例をご覧ください。写真は随時更新中です。</p>
+      <div class="gallery-grid">
+
+        <!-- フェイシャルエステ -->
+        <div class="gallery-item fade-in">
+          <div class="gallery-img-wrap">
+            <img src="facial.png" alt="フェイシャルエステ" class="gallery-img">
+            <div class="gallery-overlay"><span>Facial</span></div>
+          </div>
+        </div>
+
+        <!-- ボディケア -->
+        <div class="gallery-item fade-in">
+          <div class="gallery-img-wrap">
+            <img src="massage.png" alt="ボディケア" class="gallery-img">
+            <div class="gallery-overlay"><span>Body Care</span></div>
+          </div>
+        </div>
+
+        <!-- ネイルアート -->
+        <div class="gallery-item fade-in">
+          <div class="gallery-img-wrap">
+            <img src="nail.png" alt="ネイルアート" class="gallery-img">
+            <div class="gallery-overlay"><span>Nail Art</span></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== メニュー・料金 ===== -->
+  <section id="menu" class="section">
+    <div class="container">
+      <span class="section-label fade-in">Menu & Price</span>
+      <h2 class="section-title fade-in">メニュー・料金</h2>
+      <p class="section-sub fade-in">すべての価格は税込み表示です。初回限定割引もご用意しております。</p>
+      <div class="menu-tabs fade-in">
+        <button class="tab-btn active" data-tab="nail-menu">ネイル</button>
+        <button class="tab-btn" data-tab="esthe-menu">エステ</button>
+      </div>
+      <div id="nail-menu" class="tab-content active">
+        <div class="menu-list">
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">シンプルコース</p><p class="menu-desc">ワンカラー / フレンチ / グラデーション</p></div>
+            <div><p class="menu-price">¥5,500</p><p class="menu-time">60分〜</p></div>
+          </div>
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">デザインコース</p><p class="menu-desc">ストーン・アート・スカルプチュア含む</p></div>
+            <div><p class="menu-price">¥8,800</p><p class="menu-time">90分〜</p></div>
+          </div>
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">プレミアムコース</p><p class="menu-desc">フルアート / 3Dネイル / ジェルスカルプ</p></div>
+            <div><p class="menu-price">¥13,200</p><p class="menu-time">120分〜</p></div>
+          </div>
+        </div>
+      </div>
+      <div id="esthe-menu" class="tab-content">
+        <div class="menu-list">
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">フェイシャルベーシック</p><p class="menu-desc">クレンジング・ケア・保湿パック</p></div>
+            <div><p class="menu-price">¥7,700</p><p class="menu-time">60分</p></div>
+          </div>
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">フェイシャルプレミアム</p><p class="menu-desc">高濃度美容液 / 超音波 / リフトアップ</p></div>
+            <div><p class="menu-price">¥14,300</p><p class="menu-time">90分</p></div>
+          </div>
+          <div class="menu-item fade-in">
+            <div><p class="menu-name">ボディリラクゼーション</p><p class="menu-desc">アロマオイルを使用した全身ケア</p></div>
+            <div><p class="menu-price">¥11,000</p><p class="menu-time">90分</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 会社概要・チーム ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <span class="section-label fade-in">About</span>
+      <h2 class="section-title fade-in">サロンについて</h2>
+      <div class="about-grid">
+        <div class="about-info fade-in">
+          <p style="font-size:15px; color: var(--text-muted); line-height:1.9;">
+            Beauté Noir は「日常に上質な美しさを」をコンセプトに、<br>
+            東京で2016年に創業した総合美容サロンです。<br>
+            経験豊富なスタイリストが、あなただけの美を丁寧に提案します。
+          </p>
+          <table>
+            <tr><td>サロン名</td><td>Beauté Noir（ボーテ ノワール）</td></tr>
+            <tr><td>所在地</td><td>東京都〇〇区〇〇1-2-3<br>〇〇ビル 3F</td></tr>
+            <tr><td>TEL</td><td>03-XXXX-XXXX</td></tr>
+            <tr><td>営業時間</td><td>火〜日 10:00〜20:00<br>（月曜定休）</td></tr>
+            <tr><td>最寄り駅</td><td>〇〇線「〇〇駅」徒歩3分</td></tr>
+          </table>
+        </div>
+        <div class="fade-in">
+          <p class="section-label">Team</p>
+          <div class="team-grid">
+            <div class="team-card"><div class="team-avatar">A</div><p class="team-name">山田 彩香</p><p class="team-role">ネイルアーティスト</p></div>
+            <div class="team-card"><div class="team-avatar">M</div><p class="team-name">田中 美咲</p><p class="team-role">エステシャン</p></div>
+            <div class="team-card"><div class="team-avatar">Y</div><p class="team-name">鈴木 由香</p><p class="team-role">ネイルアーティスト</p></div>
+            <div class="team-card"><div class="team-avatar">K</div><p class="team-name">佐藤 薫</p><p class="team-role">エステシャン</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== お問合せフォーム ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <span class="section-label fade-in">Contact</span>
+      <h2 class="section-title fade-in">お問合せ</h2>
+      <p class="section-sub fade-in">ご不明な点やご相談は、お気軽にお問合せください。<br>2営業日以内にご返信いたします。</p>
+      <form class="contact-form fade-in" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="c-name">お名前 *</label>
+            <input type="text" id="c-name" placeholder="山田 花子" required>
+          </div>
+          <div class="form-group">
+            <label for="c-email">メールアドレス *</label>
+            <input type="email" id="c-email" placeholder="example@email.com" required>
+          </div>
+          <div class="form-group full">
+            <label for="c-category">お問合せ種別 *</label>
+            <select id="c-category" required>
+              <option value="">選択してください</option>
+              <option value="menu">メニュー・料金について</option>
+              <option value="reservation">ご予約について</option>
+              <option value="access">アクセスについて</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label for="c-message">お問合せ内容 *</label>
+            <textarea id="c-message" placeholder="お問合せ内容をご記入ください。" required></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn-primary">送信する →</button>
+          <p class="form-note">※ 個人情報は返信目的以外には使用いたしません。</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== 予約フォーム ===== -->
+  <section id="reservation" class="section">
+    <div class="container">
+      <span class="section-label fade-in">Reservation</span>
+      <h2 class="section-title fade-in">ご予約</h2>
+      <p class="section-sub fade-in">フォームよりお気軽にご予約ください。確認後、担当よりご連絡いたします。</p>
+      <form class="reservation-form fade-in" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="r-name">お名前 *</label>
+            <input type="text" id="r-name" placeholder="山田 花子" required>
+          </div>
+          <div class="form-group">
+            <label for="r-tel">電話番号 *</label>
+            <input type="tel" id="r-tel" placeholder="090-XXXX-XXXX" required>
+          </div>
+          <div class="form-group">
+            <label for="r-date">ご希望日時 *</label>
+            <input type="datetime-local" id="r-date" required>
+          </div>
+          <div class="form-group">
+            <label for="r-menu">ご希望メニュー *</label>
+            <select id="r-menu" required>
+              <option value="">選択してください</option>
+              <optgroup label="ネイル">
+                <option value="nail-simple">シンプルコース ¥5,500〜</option>
+                <option value="nail-design">デザインコース ¥8,800〜</option>
+                <option value="nail-premium">プレミアムコース ¥13,200〜</option>
+              </optgroup>
+              <optgroup label="エステ">
+                <option value="facial-basic">フェイシャルベーシック ¥7,700</option>
+                <option value="facial-premium">フェイシャルプレミアム ¥14,300</option>
+                <option value="body">ボディリラクゼーション ¥11,000</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label for="r-note">ご要望・ご質問（任意）</label>
+            <textarea id="r-note" placeholder="アレルギーやご要望があればご記入ください。"></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn-primary">予約リクエストを送る →</button>
+          <p class="form-note">※ 営業時間内（火〜日 10:00〜19:00）に折り返しご連絡します。</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">Beauté<span> Noir</span></a>
+          <p>東京のプレミアムネイル＆エステサロン。<br>上質な空間と確かな技術で、日常に<br>美しさをお届けします。</p>
+        </div>
+        <div class="footer-col">
+          <h4>メニュー</h4>
+          <ul>
+            <li><a href="#services">サービス</a></li>
+            <li><a href="#gallery">ギャラリー</a></li>
+            <li><a href="#menu">料金表</a></li>
+            <li><a href="#contact">お問合せ</a></li>
+            <li><a href="#reservation">ご予約</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>サロン情報</h4>
+          <ul>
+            <li><a href="#about">サロンについて</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Beauté Noir. All rights reserved.</p>
+        <p>東京都〇〇区〇〇1-2-3</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== チャットボット ===== -->
+  <button class="chatbot-toggle" aria-label="チャットを開く">💬</button>
+  <div class="chatbot-window">
+    <div class="chatbot-header">
+      <div class="chatbot-avatar">✨</div>
+      <div class="chatbot-header-info">
+        <h4>Beauté Noir サポート</h4>
+        <p>オンライン中</p>
+      </div>
+    </div>
+    <div class="chatbot-messages"></div>
+    <div class="chatbot-options"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
