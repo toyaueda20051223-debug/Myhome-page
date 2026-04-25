@@ -55,17 +55,20 @@ function countUp(el) {
   requestAnimationFrame(update);
 }
 
-const statNumbers = document.querySelectorAll('.stat-number[data-target]');
-const statObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      countUp(entry.target);
-      statObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.5 });
-
-statNumbers.forEach(el => statObserver.observe(el));
+const statsSection = document.querySelector('.stats');
+if (statsSection) {
+  const statObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        statObserver.unobserve(entry.target);
+        setTimeout(() => {
+          entry.target.querySelectorAll('.stat-number[data-target]').forEach(countUp);
+        }, 300);
+      }
+    });
+  }, { threshold: 0.3 });
+  statObserver.observe(statsSection);
+}
 
 /* ===== メニュータブ切り替え ===== */
 document.querySelectorAll('.tab-btn').forEach(btn => {
